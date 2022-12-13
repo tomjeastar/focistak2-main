@@ -1,0 +1,36 @@
+### read
+get http://localhost:3000/players
+
+### read by id
+get http://localhost:3000/players/elso
+
+### delete
+delete http://localhost:3000/players/masodik
+
+### post
+post http://localhost:3000/players
+Content-Type: application/json
+
+{
+        "id": "harmadik", 
+        "name": "neymar",
+        "qualification": 1, 
+        "position": "jobbszelsohatved", 
+        "club": "PSG", 
+        "age": 22, 
+        "nationality": "Brazil" 
+    },
+
+### put
+put http://localhost:3000/players/harmadik
+Content-Type: application/json
+
+    {
+        "id": "elso", 
+        "name": "<script>alert('betörtem')</script> harmadikXXXXXXX",
+        "qualification": 5, 
+        "position": "csatár", 
+        "club": "FCB", 
+        "age": 25, 
+        "nationality": "Argentin" 
+    }

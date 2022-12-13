@@ -1,0 +1,49 @@
+{
+    "players": [
+        {
+            "id": "elso", 
+            "name": "messi",
+            "qualification": 10, 
+            "position": "csatár", 
+            "club": "FCB", 
+            "age": 32, 
+            "nationality": "Argentin" 
+        },
+        {
+            "id": "masodik", 
+            "name": "ronaldo",
+            "qualification": 7, 
+            "position": "kozeppalyas", 
+            "club": "PSG", 
+            "age": 47, 
+            "nationality": "Portugal" 
+        },
+        {
+            "id": "harmadik", 
+            "name": "neymar",
+            "qualification": 1, 
+            "position": "jobbszelsohatved", 
+            "club": "PSG", 
+            "age": 22, 
+            "nationality": "Brazil" 
+        },
+        {
+            "id": "rugos beke", 
+            "name": "focista 4",
+            "qualification": 3, 
+            "position": "kapus", 
+            "club": "Magyar maffia", 
+            "age": 23, 
+            "nationality": "Magyar" 
+        },
+        {
+            "id": "ali abdul aziz", 
+            "name": "focista 5",
+            "qualification": 8, 
+            "position": "kozephatved", 
+            "club": "Magyar maffia", 
+            "age": 32, 
+            "nationality": "Magyar" 
+        }
+    ]
+}
